@@ -1,0 +1,17 @@
+  .header__up{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 405px 0 405px;
+    color: #ffffff;
+    background: #C8A35F;
+  }
+
+  .header__down{
+      display: flex;
+      justify-content: space-between;
+      background: #2f343a;
+      color: #ffffff;
+      padding: 0 90px 0 90px;
+      
+  }
+

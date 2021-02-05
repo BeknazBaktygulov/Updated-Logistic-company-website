@@ -1,0 +1,124 @@
+.services__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    background-color: #393f47;
+    padding: 10px;
+}
+
+.services__content > div {
+    background-color: #fcfcfc;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+}
+
+
+.services__content > img {
+    text-align: center;
+}
+
+.services__title {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+
+#zoom__effect {
+  padding: 70px;
+  background-color: #393f47;
+  transition: transform .2s;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  text-align: center;
+  color: #2A2B2DFF;
+}
+
+#zoom__effect:hover {
+  border-radius: 20px;
+  background-color: #FF9900;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+/* TEST */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    background-color: #393f47;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgb(104, 101, 101);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .zoom {
+    padding: 100px;
+    transition: transform .3s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2A2B2DFF;
+    border-radius: 10px;
+  }
+  
+  .zoom:hover {
+    border-radius: 25px;
+    background-color: #C8A35F;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    color: white;
+  }
+
+
+ 
+
+body {
+    background-color: #393f47;          /* painted whole body gray  */
+}
+
+
+.about__title {
+  color: white;
+  font-size: 30px;
+}
+
+
+.volvo_car {
+  width: 450px;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 30px;
+  background-color: #393f47;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.about-me > p {
+  color: white;
+  font-size: 22px;
+}
+
+
+
+.company__name {
+  font-size: 30px;
+  color: white;
+}
+

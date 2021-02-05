@@ -1,0 +1,19 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./europe.css";
+@import "./services.css";
+@import "./about.css";
+@import "./map.css";
+@import "./footer.css";
+
+
+
+@font-face {
+    font: url(../fonts/Roboto-Medium.ttf);
+    font-family: "Roboto";
+}
+
+.container{
+    min-width: 1110px;
+    margin: 0 auto;
+}

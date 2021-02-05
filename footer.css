@@ -1,0 +1,13 @@
+
+.footer__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    padding: 10px;
+    color: #ffffff;
+    background: #C8A35F;
+  }  
+
+  .dev {
+    color: black;
+  }

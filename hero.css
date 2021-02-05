@@ -1,0 +1,25 @@
+.hero__content{
+    background: url(../img/Truck__background.png) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+}
+.freight{
+    font-size: 64px;
+    color: #FFF;
+    font: url(../fonts/Roboto-Medium.ttf);
+    font-family: "Roboto";
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    padding: 350px 0 0 0;
+ }
+.description{
+    position: relative;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+.mouse{
+    padding: 540px 951px 50px 951px;
+}
